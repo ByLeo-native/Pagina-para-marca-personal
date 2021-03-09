@@ -17,6 +17,7 @@ body {
 .header {
     align-items: center;
     background-color: #242423;
+    border-bottom: 1px solid grey;
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -93,4 +94,31 @@ li, a {
 
 .main-text-container p {
     font-size: 1.8rem;
+}
+
+.footer {
+    background-color: #242423;
+    border-top: 2px solid cornsilk;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.footer__img--logo {
+    cursor: pointer;
+    height: 50px;
+}
+
+.footer__title {
+    color: #339989;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-nav-links ul{
+    list-style: none;
+}
+
+.footer-nav-links li {
+    margin: 5px 0;
 }
